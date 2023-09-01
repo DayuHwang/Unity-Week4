@@ -1,0 +1,34 @@
+
+• See this week’s lecture for hints on how to complete the following through Git Bash or explore it through the use of Sourcetree or GitHub (installed in the lab room).
+o For ease of instruction and consistency, the below instruction are for Git Bash (orusing Git in the Terminal if you are on Mac)
+• Create a new repository on GitHub.com (or your git host of choice, such as BitBucket,
+GitLab, etc.)
+• Initialize a local repository in the Unity Activity folder for this week (hint: see “git init”)
+o This should be at the same folder level as the folders “Assets”, “Project Settings”,
+etc.
+o This will create a hidden folder named “.git”. See next instruction on how to reveal
+hidden directories in your operating system.
+• In the same directory as your “.git” folder, create a file called “.gitignore”
+o The .git folder may be hidden in your file browser, and because .gitignore has a “.”
+at the start, it may also be hidden on Macs.
+ In Windows, use the following instructions to show hidden files:
+https://support.microsoft.com/en-au/help/4028316/windows-viewhidden-
+files-and-folders-in-windows-10
+ In Mac, in the terminal use “ls -a” (that is a lower case “L”) to show
+list hidden files.
+o In the .gitignore file, paste the code from the following:
+https://github.com/github/gitignore/blob/master/Unity.gitignore
+o This will ensure that certain unnecessary files will not be committed to your
+online repository, freeing up space and speeding up your commit process
+• Add your GitHub repository as a remote of the local repository (hint: see “git remote”)
+• Add all the files in the activity folder to the repository (hint: see “git add”)
+• Commit all changes to the local repository (hint: see “git commit”)
+• Push all the changes to the remote GitHub repository (hint: see “git push”)
+o If you are using GitBash (the terminal) with a GitHub.com repository, you may get
+an error when you try to put in your login details. If so, you should follow the
+instructions in the following link to create a personal login token OR use GitHub
+Desktop instead (it will handle authentication for you) -
+https://docs.github.com/en/github/authenticating-to-github/keeping-youraccount-
+and-data-secure/creating-a-personal-access-token
+Set the ProgressEvaluator to band that you just completed (see left grey column) and press Play
+to test your progress for known errors.
